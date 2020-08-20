@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: var(--planck-color);
+  color: white;
+}
+.header-left {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  margin-left: 20px;
+}
+.header-left > .MuiSvgIcon-root {
+  margin-right: 30px;
+  margin-left: auto;
+  padding-left: 10px;
+}
+.header-search {
+  flex: 0.4;
+  background-color: #432f44;
+  text-align: center;
+  display: flex;
+  padding: 0 50px;
+  color: gray;
+  border: 1px gray solid;
+  border-radius: 6px;
+}
+.header-search > input {
+  background-color: transparent;
+  border: None;
+  text-align: center;
+  min-width: 35vw;
+}
+.header-right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+.header-right > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: 20px;
+}
